@@ -1,7 +1,22 @@
 ======================================================================
   PRINTER REBOOT TOOL
 ======================================================================
+Disclaimer & Limitation of Liability
 
+Independent Development & Non-Affiliation
+This software is developed independently and is not an official product of, sponsored by, endorsed by, or in any way affiliated with Seiko Epson Corporation, Epson America, Inc., Epson Europe B.V., or any of their parent companies, subsidiaries, or affiliates. All product names, trademarks, registered trademarks, service marks, and trade names mentioned or utilized herein (including "Epson") are the property of their respective owners and are referenced solely for descriptive and compatibility purposes under nominative fair use.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. THE ENTIRE RISK AS TO THE QUALITY, PERFORMANCE, AND OPERATION OF THE SOFTWARE RESTS WITH THE USER.
+
+IN NO EVENT SHALL THE AUTHOR, COPYRIGHT HOLDERS, OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
+THIS INCLUDES, WITHOUT LIMITATION, ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES, SUCH AS:
+- HARDWARE DAMAGE, BRICKING, FIRMWARE CORRUPTION, MECHANICAL FAILURES, OR PRINT HEAD DAMAGE;
+- LOSS OF USE, DATA, REVENUE, PROFITS, OR BUSINESS INTERRUPTION;
+- VOIDING OF MANUFACTURER WARRANTIES OR SERVICE CONTRACTS; OR
+- COST OF SUBSTITUTE GOODS, HARDWARE REPLACEMENTS, OR REPAIR SERVICES.
+
+
+BY DOWNLOADING, INSTALLING, OR USING THIS SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS DISCLAIMER, UNDERSTAND IT, AND AGREE TO USE THE SOFTWARE ENTIRELY AT YOUR OWN RISK.
 [ENGLISH]
 
 About
@@ -56,11 +71,6 @@ Click the "SNMP Settings..." button to configure SNMP:
 - Community String (Read/Write): Defaults to blank. Enter the community 
   name that has been configured on your printer.
 
-How to Rebuild
---------------
-If you want to recompile the project, just double-click build.bat. 
-It uses the native C# compiler built into Windows (.NET 4.0/4.8), 
-so you don't need Visual Studio or any extra software installed.
 
 
 ======================================================================
@@ -121,8 +131,4 @@ Einstellungen & SNMP-Versionen
 - Community-String (Read/Write): Standardmäßig leer. Tragen Sie hier den 
   Namen ein, der am Drucker hinterlegt wurde.
 
-Kompilieren / Erstellen
------------------------
-Um das Programm neu zu bauen, einfach build.bat doppelklicken. 
-Dabei wird der in Windows integrierte C#-Compiler (.NET 4.0/4.8) genutzt – 
-weder Visual Studio noch zusätzliche Software sind nötig.
+
